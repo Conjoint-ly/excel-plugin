@@ -3,7 +3,7 @@ A companion plugin for Excel for charting Conjoint.ly outputs
 
 **Functionality**
 
-![img](screenshot1.jpg)
+![img](clip_image002.jpg)
 
 - **Conjoint.ly website link**
 - **Formatting**:
