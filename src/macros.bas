@@ -1,17 +1,21 @@
-
 Option Explicit
+Public ColourDictionary As dictionary
+
 Sub CONJOINTLY_Centre_Across_Cells_eventhandler(control As IRibbonControl)
     CONJOINTLY_Centre_Across_Cells
 End Sub
+
 Sub CONJOINTLY_Centre_Across_Cells()
     With Selection
         .HorizontalAlignment = xlCenterAcrossSelection
         .MergeCells = False
     End With
 End Sub
+
 Sub CONJOINTLY_Find_Ref_eventhandler(control As IRibbonControl)
     CONJOINTLY_Find_Ref
 End Sub
+
 Sub CONJOINTLY_Find_Ref()
     Dim wbSheet As Worksheet
     Dim wbFound As Range
@@ -316,9 +320,10 @@ Sub CONJOINTLY_CellColorsToChart_eventhandler(control As IRibbonControl)
 End Sub
 Sub CONJOINTLY_CellColorsToChart()
     Dim xChart As Chart
-    Dim I As Long, J As Long
+    Dim i As Long, j As Long
     Dim xRowsOrCols As Long, xSCount As Long
     Dim xRg As Range, xCell As Range
+    Dim tempFirst As Boolean
     On Error Resume Next
     
     Set xChart = ActiveChart
@@ -326,9 +331,9 @@ Sub CONJOINTLY_CellColorsToChart()
     Application.StatusBar = "Starting for the chart called: " & xChart.Name
     
     xSCount = xChart.SeriesCollection.Count
-    For I = 1 To xSCount
-        J = 1
-        With xChart.SeriesCollection(I)
+    For i = 1 To xSCount
+        j = 1
+        With xChart.SeriesCollection(i)
             Set xRg = ActiveSheet.Range(Split(Split(.Formula, ",")(2), "!")(1))
             If xSCount > 4 Then
                 xRowsOrCols = xRg.Columns.Count
@@ -339,18 +344,50 @@ Sub CONJOINTLY_CellColorsToChart()
             .Format.Line.Visible = msoTrue
             .Format.Line.Weight = 1
             .Format.Line.ForeColor.RGB = RGB(100, 100, 100)
+           ' .DataLabels.ShowSeriesName = True
             
+            
+            tempFirst = True
             For Each xCell In xRg
-                Application.StatusBar = "Updating row " & I & " in column " & J
-                .Points(J).Format.Fill.ForeColor.RGB = xCell.Interior.Color
-                .Points(J).Format.Line.Visible = msoTrue
-                .Points(J).Format.Line.Weight = 1
-                .Points(J).Format.Line.ForeColor.RGB = RGB(100, 100, 100)
-                J = J + 1
+                Application.StatusBar = "Updating row " & i & " in column " & j
+                
+                If Not IsEmpty(xCell.Value) Then
+                
+                    If tempFirst Then
+                        .Format.Fill.ForeColor.RGB = xCell.Interior.Color
+                        tempFirst = False
+                        .Points(j).DataLabels.ShowSeriesName = True
+                    Else
+                        .Points(j).DataLabels.ShowSeriesName = False
+                        
+                    End If
+                    
+                    .MarkerBackgroundColor = xCell.Interior.Color
+                    .MarkerForegroundColor = xCell.Interior.Color
+                    
+                    
+                    If Val(xCell.Value) = 0 Then
+                        .Points(j).HasDataLabel = False
+                    End If
+                    
+                    .Points(j).Format.Fill.ForeColor.RGB = xCell.Interior.Color
+                    .Points(j).Format.Line.Visible = msoTrue
+                    .Points(j).Format.Line.Weight = 1
+                    .Points(j).Format.Line.ForeColor.RGB = xCell.Interior.Color
+                    j = j + 1
+                End If
             Next
             
         End With
     Next
+    
+    ActiveSheet.Shapes(xChart.Parent.Name).Line.Visible = msoFalse
+    xChart.HasTitle = True
+    xChart.HasTitle = False
+    xChart.ChartArea.Font.Name = "Helvetica Neue"
+    xChart.ChartArea.Font.Color = RGB(0, 0, 0)
+    xChart.ChartArea.Font.Size = 10
+    
     Application.StatusBar = False
 End Sub
 
@@ -406,4 +443,52 @@ Sub CONJOINTLY_CreateLinksToAllSheets()
 End Sub
 
 
+
+Sub CONJOINTLY_GetColours_eventhandler(control As IRibbonControl)
+    CONJOINTLY_GetColours
+End Sub
+Sub CONJOINTLY_GetColours()
+    
+    Dim myRange As Range
+    Dim cell As Range
+    On Error Resume Next
+    Set myRange = Selection
+    Set ColourDictionary = New dictionary
+    
+    For Each cell In myRange
+        Application.StatusBar = cell.Address
+        If cell.Interior.Color <> 16777215 Then
+            ColourDictionary(cell.Value) = cell.Interior.Color
+        End If
+    Next cell
+    Application.StatusBar = False
+End Sub
+
+
+Sub CONJOINTLY_ApplyColours_eventhandler(control As IRibbonControl)
+    CONJOINTLY_ApplyColours
+End Sub
+Sub CONJOINTLY_ApplyColours()
+    Dim cell As Range
+    Dim myRange As Range
+    On Error Resume Next
+    Set myRange = Selection
+    
+    For Each cell In myRange
+        Application.StatusBar = cell.Address
+        If ColourDictionary(cell.Value) Then
+            cell.Interior.Color = ColourDictionary(cell.Value)
+        End If
+    Next cell
+    Application.StatusBar = False
+End Sub
+
+Function ELASTICITY(Quantity1 As Double, Quantity2 As Double, Price1 As Double, Price2 As Double) As Double
+    ELASTICITY = (Quantity2 - Quantity1) / (Quantity1 + Quantity2) / (Price2 - Price1) * (Price1 + Price2)
+End Function
+
+
+Private Sub Workbook_Open()
+ s = Application.MacroOptions(Macro:="ELASTICITY", Description:="Calculates elasticity of demand", Category:="Conjoint.ly", ArgumentDescriptions:=Array("Quantity1", "Quantity2", "Price1", "Price2"))
+End Sub
 
