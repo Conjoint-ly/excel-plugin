@@ -1,4 +1,4 @@
-# excel-plugin
+# Conjoint.ly Excel plugin
 A companion plugin for Excel for charting Conjoint.ly outputs
 
 **Functionality**
@@ -17,8 +17,7 @@ A companion plugin for Excel for charting Conjoint.ly outputs
 
 - **Error handling**:
 
-- - **Wrap formula in IF statement:** Select a range of cells      and click the button -> A self-explanatory series of dialogues will as      you how you want to convert a statement like =A1 into      =IF(A1=4,"FOUR",A1).
+  - **Wrap formula in IF statement:** Select a range of cells      and click the button -> A self-explanatory series of dialogues will as      you how you want to convert a statement like =A1 into      =IF(A1=4,"FOUR",A1).
   - **Find Ref:** Click the button -> Selects cells that      are showing “#REF!”
   - **Format as error check range**: Select your error check      cells and click button to add conditional formatting: FALSE will be made      red, NA will be faded, TRUE and other values will be untouched
-
-**Make all errors red on sheet**: Add conditional formatting to all cells on the sheet so that if there is an error (e.g., =8/0), the error cell will be red
+ - **Make all errors red on sheet**: Add conditional formatting to all cells on the sheet so that if there is an error (e.g., =8/0), the error cell will be red
