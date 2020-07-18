@@ -448,8 +448,8 @@ Sub CONJOINTLY_GetColours_eventhandler(control As IRibbonControl)
     CONJOINTLY_GetColours
 End Sub
 Sub CONJOINTLY_GetColours()
-    
-    Dim myRange As Range
+     
+     Dim myRange As Range
     Dim cell As Range
     On Error Resume Next
     Set myRange = Selection
@@ -458,10 +458,27 @@ Sub CONJOINTLY_GetColours()
     For Each cell In myRange
         Application.StatusBar = cell.Address
         If cell.Interior.Color <> 16777215 Then
-            ColourDictionary(cell.Value) = cell.Interior.Color
+            ColourDictionary(cell.value) = cell.Interior.Color
         End If
     Next cell
     Application.StatusBar = False
+    
+    result = "{"
+    First = True
+    For Each TextValue In ColourDictionary.Keys()
+        If Not First Then
+            result = result & ","
+        End If
+        First = False
+        result = result & """" & TextValue & """: """ & Hex(ColourDictionary(TextValue)) & """"
+    Next TextValue
+    result = result & "}"
+     
+    With New MSForms.DataObject
+        .SetText result
+        .PutInClipboard
+    End With
+     
 End Sub
 
 
