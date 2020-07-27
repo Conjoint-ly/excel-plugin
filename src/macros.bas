@@ -448,9 +448,13 @@ Sub CONJOINTLY_GetColours_eventhandler(control As IRibbonControl)
     CONJOINTLY_GetColours
 End Sub
 Sub CONJOINTLY_GetColours()
-     
-     Dim myRange As Range
+    
+    Dim myRange As Range
     Dim cell As Range
+    Dim result As String
+    Dim First As Boolean
+    Dim TextValue As Variant
+    Dim FillHexColor As String
     On Error Resume Next
     Set myRange = Selection
     Set ColourDictionary = New dictionary
@@ -458,10 +462,9 @@ Sub CONJOINTLY_GetColours()
     For Each cell In myRange
         Application.StatusBar = cell.Address
         If cell.Interior.Color <> 16777215 Then
-            ColourDictionary(cell.value) = cell.Interior.Color
+            ColourDictionary(cell.Value) = cell.Interior.Color
         End If
     Next cell
-    Application.StatusBar = False
     
     result = "{"
     First = True
@@ -470,7 +473,9 @@ Sub CONJOINTLY_GetColours()
             result = result & ","
         End If
         First = False
-        result = result & """" & TextValue & """: """ & Hex(ColourDictionary(TextValue)) & """"
+        FillHexColor = Right("000000" & Hex(ColourDictionary(TextValue)), 6)
+        FillHexColor = Right(FillHexColor, 2) & Mid(FillHexColor, 3, 2) & Left(FillHexColor, 2)
+        result = result & """" & TextValue & """: """ & FillHexColor & """"
     Next TextValue
     result = result & "}"
      
@@ -478,7 +483,8 @@ Sub CONJOINTLY_GetColours()
         .SetText result
         .PutInClipboard
     End With
-     
+    
+    Application.StatusBar = False
 End Sub
 
 
@@ -498,6 +504,17 @@ Sub CONJOINTLY_ApplyColours()
         End If
     Next cell
     Application.StatusBar = False
+End Sub
+
+Sub CONJOINTLY_WriteColours()
+  
+    On Error Resume Next
+
+    For Each Colour In ColourDictionary
+        ActiveCell.Value = Colour
+        ActiveCell.Offset(1, 0).Select
+    Next Colour
+    
 End Sub
 
 Function ELASTICITY(Quantity1 As Double, Quantity2 As Double, Price1 As Double, Price2 As Double) As Double
