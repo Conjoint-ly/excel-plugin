@@ -1,6 +1,35 @@
 # Conjoint.ly Excel plugin
 A free companion plugin for Excel that helps with charting [Conjoint.ly](https://conjointly.com/) outputs, including simulations charts from the Conjoint.ly [online simulator](https://conjointly.com/guides/conjoint-preference-share-simulator/) (scenario modelling and [price elasticity](https://conjointly.com/guides/understanding-price-elasticity-of-demand/) charts), colouring for [TURF analysis](https://conjointly.com/blog/turf-analysis/), and other useful utility functions.
 
+#### Installation Guide
+
+To install the plugin first download the file by selecting ConjointlyExcelPlugin-v2.xlam, then clicking the button Download. 
+
+![img](GuideImages/download.PNG)
+
+Once the file is downloaded, move the file to an apropriate location in your file system. Rename the file to ConjointlyExcelPlugin-v2.install.
+
+![img](GuideImages/Rename.PNG)
+
+Once this is completed, close all current instances of Microsoft Office. By double clicking on the file you will be prompted with the following message. 
+
+
+![img](GuideImages/Prompt.PNG)
+
+Select Yes to confirm the installation. To confirm that the program has installed successfully, check that the tab Conjoint.ly now appears at the top of your screen.
+
+##### Optional Step - Previous Conjoint.ly Plugin Installed 
+If you have installed the Conjoint.ly Plugin before September 2020, you will need to disable the exisiting plugin.
+
+To do this, navigate to `Options` - `Excel Add-ins`. Select `Go` in the bottom left hand corner of the screen.
+
+
+![img](GuideImages/Deselect.PNG)
+
+You will now have `Conjointlyexcelplugin.Xlam` installed as well as `Conjointlyexcelplugin`. Deselect the non xlam variant
+
+
+
 #### Functionality
 
 ![img](clip_image002.jpg)
