@@ -33,6 +33,7 @@ You will now have `Conjointlyexcelplugin.Xlam` installed as well as `Conjointlye
 #### Functionality
 
 ![img](GuideImages/Tool bar.PNG)
+
 | Button | Functionality |  
 | ---------------------|--------------------------------------------------------------|
 | *Go to Conjoint.ly** | Redirects the user to [Conjoint.ly](https://conjointly.com/) |
