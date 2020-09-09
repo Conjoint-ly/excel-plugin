@@ -1,7 +1,7 @@
 # Conjoint.ly Excel plugin
 A free companion plugin for Excel that helps with charting [Conjoint.ly](https://conjointly.com/) outputs, including simulations charts from the Conjoint.ly [online simulator](https://conjointly.com/guides/conjoint-preference-share-simulator/) (scenario modelling and [price elasticity](https://conjointly.com/guides/understanding-price-elasticity-of-demand/) charts), colouring for [TURF analysis](https://conjointly.com/blog/turf-analysis/), and other useful utility functions.
 
-#### Installation Guide
+#### Installation Guide (Windows 10)
 
 To install the plugin first download the file by selecting ConjointlyExcelPlugin-v2.xlam, then clicking the button Download. 
 
@@ -10,6 +10,10 @@ To install the plugin first download the file by selecting ConjointlyExcelPlugin
 Once the file is downloaded, move the file to an apropriate location in your file system. Rename the file to ConjointlyExcelPlugin-v2.install.
 
 ![img](GuideImages/Rename.PNG)
+
+Right click on the file and select properties. At the bottom of the pop up box is the option to unblock the file. Select unblock and then apply.
+
+![img](GuideImages/Unblock.PNG)
 
 Once this is completed, close all current instances of Microsoft Office. By double clicking on the file you will be prompted with the following message. 
 
