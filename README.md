@@ -13,7 +13,7 @@ Once the file is downloaded, move the file to an apropriate location in your fil
 
 Right click on the file and select properties. At the bottom of the pop up box is the option to unblock the file. Select unblock and then apply.
 
-![img](GuideImages/Unblock.PNG)
+![img](GuideImages/unblock.PNG)
 
 Once this is completed, close all current instances of Microsoft Office. By double clicking on the file you will be prompted with the following message. 
 
