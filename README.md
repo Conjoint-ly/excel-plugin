@@ -33,9 +33,10 @@ You will now have `Conjointlyexcelplugin.Xlam` installed as well as `Conjointlye
 #### Functionality
 
 ![img](GuideImages/Tool bar.PNG)
-
-|*Go to Conjoint.ly**| Redirects the user to [Conjoint.ly](https://conjointly.com/)|
-|**Make solid table**| Draw solid borders around all selected cells and will make the top row text bold|
-|**Centre across cells**| Place the text from the first cell across all empty cells in that row without merging the cells|
-|**Re-colour chart from cells** |Re-colour the selected chart based on cell background colours|
-|**Trace for a range**| You know how you can trace     precedents and dependents for one cell in Excel? These buttons let you     check precedents and dependents for a range. These functions only find     precedents and dependents within the sheet. These functions do not show     arrows, but instead select the precedents and dependents.|
+| Button | Functionality |  
+| ---------------------|--------------------------------------------------------------|
+| *Go to Conjoint.ly** | Redirects the user to [Conjoint.ly](https://conjointly.com/) |
+| **Make solid table** | Draw solid borders around all selected cells and will make the top row text bold|
+| **Centre across cells** | Place the text from the first cell across all empty cells in that row without merging the cells|
+| **Re-colour chart from cells** |Re-colour the selected chart based on cell background colours|
+| **Trace for a range** | You know how you can trace     precedents and dependents for one cell in Excel? These buttons let you     check precedents and dependents for a range. These functions only find     precedents and dependents within the sheet. These functions do not show     arrows, but instead select the precedents and dependents.|
