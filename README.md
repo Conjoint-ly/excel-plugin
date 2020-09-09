@@ -32,11 +32,11 @@ You will now have `Conjointlyexcelplugin.Xlam` installed as well as `Conjointlye
 
 #### Functionality
 
-![img](GuideImages/Tool bar.PNG)
+![img](GuideImages/Toolbar.PNG)
 
 | Button | Functionality |  
 | ---------------------|--------------------------------------------------------------|
-| *Go to Conjoint.ly** | Redirects the user to [Conjoint.ly](https://conjointly.com/) |
+| **Go to Conjoint.ly** | Redirects the user to [Conjoint.ly](https://conjointly.com/) |
 | **Make solid table** | Draw solid borders around all selected cells and will make the top row text bold|
 | **Centre across cells** | Place the text from the first cell across all empty cells in that row without merging the cells|
 | **Re-colour chart from cells** |Re-colour the selected chart based on cell background colours|
