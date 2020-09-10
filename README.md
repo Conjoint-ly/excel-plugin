@@ -5,7 +5,8 @@ A free companion plugin for Excel that helps with charting [Conjoint.ly](https:/
 
 To install the plugin first download the file by selecting ConjointlyExcelPlugin-v2.xlam, then clicking the button Download. 
 
-![img](GuideImages/download.PNG)
+
+<img src="GuideImages/download.PNG"/>
 
 Once the file is downloaded, move the file to an apropriate location in your file system. Rename the file to ConjointlyExcelPlugin-v2.install.
 
@@ -13,11 +14,11 @@ Once the file is downloaded, move the file to an apropriate location in your fil
 
 Right click on the file and select properties. At the bottom of the pop up box is the option to unblock the file. Select unblock and then apply.
 
-![img](GuideImages/unblock.PNG)
+<img src="GuideImages/unblock.PNG" height=500 class="center"/>
 
 Once this is completed, close all current instances of Microsoft Office. By double clicking on the file you will be prompted with the following message. 
 
-![img](GuideImages/Prompt.PNG)
+<img src="GuideImages/Prompt.PNG" height=250 class="center"/>
 
 Select Yes to confirm the installation. To confirm that the program has installed successfully, check that the tab Conjoint.ly now appears at the top of your screen.
 
@@ -26,7 +27,8 @@ If you have installed the Conjoint.ly Plugin before September 2020, you will nee
 
 To do this, navigate to `Options` - `Excel Add-ins`. Select `Go` in the bottom left hand corner of the screen.
 
-![img](GuideImages/Deselect.PNG)
+<img src="GuideImages/Deselect.PNG" height=500 class="center"/>
+
 
 You will now have `Conjointlyexcelplugin.Xlam` installed as well as `Conjointlyexcelplugin`. Deselect the non xlam variant
 
