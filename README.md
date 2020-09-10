@@ -52,3 +52,6 @@ You will now have `Conjointlyexcelplugin.Xlam` installed as well as `Conjointlye
 | ![img](GuideImages/Lock.PNG) | This function transforms conditional formatting to to static formatting. This allows the formatting to be copied onto different data points while not changing. Note that this does not work for Excel's `Data Bars`|
 | ![img](GuideImages/Trace.PNG) | When used, this function will show all precedents and dependents for the selected cells in a pop up box, rather than showing arrows (Which occurs with the inbuilt Excel tracing|
 
+### Elasticity Function
+`ELASTICITY(Quantity1, Quantity2, Price1, Price2)`
+Calculates coefficient of price elasticity of demand using the mid-point formula. Learn more on https://conjointly.com/guides/understanding-price-elasticity-of-demand
