@@ -32,7 +32,7 @@ To do this, navigate to `Options` - `Excel Add-ins`. Select `Go` in the bottom l
 
 You will now have `Conjointlyexcelplugin.Xlam` installed as well as `Conjointlyexcelplugin`. Deselect the non xlam variant
 
-### Functionality
+### Tool Bar Functionality
 
 ![img](GuideImages/Toolbar.PNG)
 
@@ -42,7 +42,7 @@ You will now have `Conjointlyexcelplugin.Xlam` installed as well as `Conjointlye
 | **Make solid table** | Draw solid borders around all currently highlighted cells. The text in the top row will be bolded.|
 | **Centre across cells** | Place the text from the first cell across all selected cells. This gives the apparence of merged cells, but when referencing the cells only the first cell will contain a value, the rest will be empty.|
 | **Re-colour chart from cells** | To use this function, first change the background colour of your data cells to the colour you wish to be displayed for that range on your chart. Selecting the chart and then the button will open a prompt where you can select how you want the colours to be applied. Once the options are selected, the colours will be applied to your chart. The font will also be changed to Helvetica Neue 11pt. |
-| **Add Index with Links** | | 
-| **Hide Zeros** | |
-| **Lock conditional formatting** | |
-| **Trace for a range** | You know how you can trace     precedents and dependents for one cell in Excel? These buttons let you     check precedents and dependents for a range. These functions only find     precedents and dependents within the sheet. These functions do not show     arrows, but instead select the precedents and dependents.|
+| **Add Index with Links** | Use this on a blank tab, as the changes can not be undone. Creates an index of each Excel tag within the work book, that each are linked so they open when selected | 
+| **Hide Zeros** | To use this function, select a graph that you want to hide zeros on. Once the function is used it will apply formatting to the underlying dataset to hide values approaching zero|
+| **Lock conditional formatting** | This function transforms conditional formatting to to static formatting. This allows the formatting to be copied onto different data points while not changing. Note that this does not work for Excel's `Data Bars`|
+| **Trace Precedents and Dependents** | When used, this function will show all precedents and dependents for the selected cells in a pop up box, rather than showing arrows (Which occurs with the inbuilt Excel tracing|
