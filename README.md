@@ -38,11 +38,11 @@ You will now have `Conjointlyexcelplugin.Xlam` installed as well as `Conjointlye
 
 | Button | Functionality |  
 | ---------------------|--------------------------------------------------------------|
-| **Go to Conjoint.ly** | Opens the user's default browser and redirects to [Conjoint.ly](https://conjointly.com/) |
-| **Make solid table** | Draw solid borders around all currently highlighted cells. The text in the top row will be bolded.|
-| **Centre across cells** | Place the text from the first cell across all selected cells. This gives the apparence of merged cells, but when referencing the cells only the first cell will contain a value, the rest will be empty.|
-| **Re-colour chart from cells** | To use this function, first change the background colour of your data cells to the colour you wish to be displayed for that range on your chart. Selecting the chart and then the button will open a prompt where you can select how you want the colours to be applied. Once the options are selected, the colours will be applied to your chart. The font will also be changed to Helvetica Neue 11pt. |
-| **Add Index with Links** | Use this on a blank tab, as the changes can not be undone. Creates an index of each Excel tag within the work book, that each are linked so they open when selected | 
-| **Hide Zeros** | To use this function, select a graph that you want to hide zeros on. Once the function is used it will apply formatting to the underlying dataset to hide values approaching zero|
-| **Lock conditional formatting** | This function transforms conditional formatting to to static formatting. This allows the formatting to be copied onto different data points while not changing. Note that this does not work for Excel's `Data Bars`|
-| **Trace Precedents and Dependents** | When used, this function will show all precedents and dependents for the selected cells in a pop up box, rather than showing arrows (Which occurs with the inbuilt Excel tracing|
+| ![img](GuideImages/GoToConjointly.PNG) | Opens the user's default browser and redirects to [Conjoint.ly](https://conjointly.com/) |
+| ![img](GuideImages/MakeSolidTable.PNG) | Draw solid borders around all currently highlighted cells. The text in the top row will be bolded.|
+| ![img](GuideImages/Centre.PNG) | Place the text from the first cell across all selected cells. This gives the apparence of merged cells, but when referencing the cells only the first cell will contain a value, the rest will be empty.|
+| ![img](GuideImages/Recolor.PNG) | To use this function, first change the background colour of your data cells to the colour you wish to be displayed for that range on your chart. Selecting the chart and then the button will open a prompt where you can select how you want the colours to be applied. Once the options are selected, the colours will be applied to your chart. The font will also be changed to Helvetica Neue 11pt. |
+| ![img](GuideImages/AddIndex.PNG) | Use this on a blank tab, as the changes can not be undone. Creates an index of each Excel tag within the work book, that each are linked so they open when selected | 
+| ![img](GuideImages/HideZeros.PNG) | To use this function, select a graph that you want to hide zeros on. Once the function is used it will apply formatting to the underlying dataset to hide values approaching zero|
+| ![img](GuideImages/Lock.PNG) | This function transforms conditional formatting to to static formatting. This allows the formatting to be copied onto different data points while not changing. Note that this does not work for Excel's `Data Bars`|
+| ![img](GuideImages/Trace.PNG) | When used, this function will show all precedents and dependents for the selected cells in a pop up box, rather than showing arrows (Which occurs with the inbuilt Excel tracing|
