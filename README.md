@@ -10,7 +10,7 @@ A free companion plugin for Excel that helps with charting [Conjoint.ly](https:/
 
 ### Installation Guide (Windows 10)
 
-To install the plugin first <a download href="https://github.com/Conjoint-ly/excel-plugin/raw/master/ConjointlyExcelPlugin-v2.xlam">download the file</a>, then clicking the button Download. 
+To install the plugin first <a download href="https://github.com/Conjoint-ly/excel-plugin/raw/master/ConjointlyExcelPlugin.xlam">download the file</a>, then clicking the button Download. 
 
 
 <img src="GuideImages/download.PNG"/>
