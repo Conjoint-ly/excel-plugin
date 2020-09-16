@@ -3,13 +3,10 @@ A free companion plugin for Excel that helps with charting [Conjoint.ly](https:/
 
 ## Table of Contents
 
-[Installiation Guide (Windows 10)](#installation-guide-windows-10)
-
-[How to remove from Excel](link)
-
-[Tool Bar Functionality](#tool-bar-functionality)
-
-[Elasticity Function](#elasticity-function)
+* [Installiation Guide (Windows 10)](#installation-guide-windows-10)
+* [How to remove from Excel](link)
+* [Tool Bar Functionality](#tool-bar-functionality)
+* [Elasticity Function](#elasticity-function)
 
 ### Installation Guide (Windows 10)
 
