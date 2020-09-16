@@ -4,42 +4,47 @@ A free companion plugin for Excel that helps with charting [Conjoint.ly](https:/
 ## Table of Contents
 
 * [Installiation Guide (Windows 10)](#installation-guide-windows-10)
-* [How to remove from Excel](link)
+* [How to update the add in](#how-to-update-the-add-in)
+* [How to disable or uninstall the add in](#how-to-disable-or-uninstall-the-add-in)
 * [Tool Bar Functionality](#tool-bar-functionality)
 * [Elasticity Function](#elasticity-function)
 
 ### Installation Guide (Windows 10)
 
-To install the plugin first <a download href="https://github.com/Conjoint-ly/excel-plugin/raw/master/ConjointlyExcelPlugin.xlam">download the file</a>
-  
-
-Once the file is downloaded, move the file to an apropriate location in your file system. Rename the file to ConjointlyExcelPlugin-v2.install.
+To install the plugin first <a download href="https://github.com/Conjoint-ly/excel-plugin/raw/master/ConjointlyExcelPlugin.xlam">download the file</a>. Once the file is downloaded, move the file to an apropriate location in your file system. The file now needs to be saved as an installation file by renaming it to `ConjointlyExcelPlugin.install`
 
 ![img](GuideImages/Rename2.PNG)
 
-Right click on the file and select properties. At the bottom of the pop up box is the option to unblock the file. Select unblock and then apply.
+Once the file is renamed, right click on the file and select properties. At the bottom of the pop up box is the option to unblock the file. Select unblock and then apply.
 
 <p align="center">
 <img src="GuideImages/unblock2.PNG" height=500 class="center"/>
 </p>
 
-Once this is completed, close all current instances of Microsoft Office. By double clicking on the file you will be prompted with the following message. 
+Once this is completed, close all current instances of Microsoft Office. By double clicking on the file, Microsoft Excel will open and you will be prompted with the following message. 
 
 <p align="center">
 <img src="GuideImages/Prompt.PNG" height=250 class="center"/>
 </p>
 Select Yes to confirm the installation. To confirm that the program has installed successfully, check that the tab Conjoint.ly now appears at the top of your screen.
 
-##### Optional Step - Previous Conjoint.ly Plugin Installed 
-If you have installed the Conjoint.ly Plugin before September 2020, you will need to disable the exisiting plugin.
+### How to update the add in
 
-To do this, navigate to `Options` - `Excel Add-ins`. Select `Go` in the bottom left hand corner of the screen.
+If you first installed the Conjoint.ly Excel Addin after September 2020, updating the plugin is easy! To update the plugin, simply download the version from Github and follow the same installation steps as above. The plugin will be automatically overwritten by the new version.
+
+If you first installed the Conjoint.ly Excel Addin before September 2020, you will first need to disable the preexisting plugin, following the steps below. Once completed, follow the standard installation steps.
+
+### How to disable or uninstall the add in
+
+There are two options to remove the add in - disabling or uninstalling. 
+
+Disabling the plugin removes the tool bar from your Excel, but allows you to easily add it back in if needed. To do this, navigate to `Options` - `Excel Add-ins`. Select `Go` in the bottom left hand corner of the screen. Untick the Conjoint.ly Excel Add in to disable it. 
 
 <p align="center">
-<img src="GuideImages/Deselect.PNG" height=500 class="center"/>
+<img src="GuideImages/disable.PNG" height=500 class="center"/>
 </p>
 
-You will now have `Conjointlyexcelplugin.Xlam` installed as well as `Conjointlyexcelplugin`. Deselect the non xlam variant
+To enitrely uninstall the add-in from your computer, nagivate to `Options` - `Excel Add-ins`, where you are presented with a list of add-ins installed on your PC, aswell as their file paths. Open file explorer and navigate to the file path for the Conjoint.ly Excel Add-in. From here you can entirely delete the file from your PC.
 
 ### Tool Bar Functionality
 
