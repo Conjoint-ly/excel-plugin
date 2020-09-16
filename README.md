@@ -11,11 +11,11 @@ A free companion plugin for Excel that helps with charting [Conjoint.ly](https:/
 
 ## Installation Guide (Windows 10)
 
-To install the plugin first <a download href="https://github.com/Conjoint-ly/excel-plugin/raw/master/ConjointlyExcelPlugin.xlam">download the file</a>. Once the file is downloaded, move the file to an apropriate location in your file system. The file now needs to be saved as an installation file by renaming it to `ConjointlyExcelPlugin.install`
+To install the plugin first <a download href="https://github.com/Conjoint-ly/excel-plugin/raw/master/ConjointlyExcelPlugin.xlam">download the file</a>. Once downloaded, move the file to an apropriate location in your file system. Rename the file to `ConjointlyExcelPlugin.install`.
 
 ![img](GuideImages/Rename2.PNG)
 
-Once the file is renamed, right click on the file and select properties. At the bottom of the pop up box is the option to unblock the file. Select unblock and then apply.
+Once renamed, right click on the file and select properties. At the bottom of the pop up box is the option to unblock the file. Select unblock and then apply.
 
 <p align="center">
 <img src="GuideImages/unblock2.PNG" height=500 class="center"/>
@@ -26,13 +26,13 @@ Once this is completed, close all current instances of Microsoft Office. By doub
 <p align="center">
 <img src="GuideImages/Prompt.PNG" height=250 class="center"/>
 </p>
-Select Yes to confirm the installation. To confirm that the program has installed successfully, check that the tab Conjoint.ly now appears at the top of your screen.
+Select yes to confirm the installation. 
 
 ## How to update the add in
 
-If you first installed the Conjoint.ly Excel Addin after September 2020, updating the plugin is easy! To update the plugin, simply download the version from Github and follow the same installation steps as above. The plugin will be automatically overwritten by the new version.
+If you first installed the Conjoint.ly Excel Addin **after** September 2020, updating the plugin is easy! To update the plugin, simply download the version from Github and follow the same installation steps as above. The plugin will be automatically overwritten by the new version.
 
-If you first installed the Conjoint.ly Excel Addin before September 2020, you will first need to disable the preexisting plugin, following the steps below. Once completed, follow the standard installation steps.
+If you first installed the Conjoint.ly Excel Addin **before** September 2020, you will first need to disable the preexisting plugin, following the steps below. Once completed, follow the [standard installation guide](#installation-guide-windows-10).
 
 ## How to disable or uninstall the add in
 
@@ -52,7 +52,7 @@ To enitrely uninstall the add-in from your computer, nagivate to `Options` - `Ex
 
 | Button  | Functionality |  
 | --------------------------------|--------------------------------------------------------------|
-|  <img src="GuideImages/GoToConjointly.PNG" width=400/> | Opens the user's default browser and redirects to [Conjoint.ly](https://conjointly.com/) |
+|  <img src="GuideImages/GoToConjointly.PNG" width=400/> | Opens the user's default browser and redirects to [**Conjoint.ly**](https://conjointly.com/) |
 | ![img](GuideImages/MakeSolidTable.PNG) | This function will **draw solid borders** around all currently highlighted cells. The text in the top row will be bolded.|
 | ![img](GuideImages/Centre.PNG) | Places the text from the leftmost selected cell across all selected cells. This gives the **apparence of merged cells**, but when referencing the cells only the first cell will contain a value, the rest will be empty.|
 | ![img](GuideImages/Recolor.PNG) | This function is designed to be an easy way to **recolour your charts based on the fill color of the data cells it is based on**. To use this function, first change the background colour of your data cells to the colour you wish to be displayed for that range on your chart. Selecting the chart and then the selecting the function will open a prompt where you can select how you want the colours to be applied. Once the options are selected, the colours will be applied to your chart. The font will also be changed to Helvetica Neue 11pt. |
