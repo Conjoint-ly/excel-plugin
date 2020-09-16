@@ -3,13 +3,13 @@ A free companion plugin for Excel that helps with charting [Conjoint.ly](https:/
 
 ## Table of Contents
 
-* [Installiation Guide (Windows 10)](#installation-guide-windows-10)
-* [How to update the add in](#how-to-update-the-add-in)
-* [How to disable or uninstall the add in](#how-to-disable-or-uninstall-the-add-in)
-* [Tool Bar Functionality](#tool-bar-functionality)
-* [Elasticity Function](#elasticity-function)
+1. [Installiation Guide (Windows 10)](#installation-guide-windows-10)
+2. [How to update the add in](#how-to-update-the-add-in)
+3. [How to disable or uninstall the add in](#how-to-disable-or-uninstall-the-add-in)
+4. [Tool Bar Functionality](#tool-bar-functionality)
+5. [Elasticity Function](#elasticity-function)
 
-### Installation Guide (Windows 10)
+## Installation Guide (Windows 10)
 
 To install the plugin first <a download href="https://github.com/Conjoint-ly/excel-plugin/raw/master/ConjointlyExcelPlugin.xlam">download the file</a>. Once the file is downloaded, move the file to an apropriate location in your file system. The file now needs to be saved as an installation file by renaming it to `ConjointlyExcelPlugin.install`
 
@@ -28,13 +28,13 @@ Once this is completed, close all current instances of Microsoft Office. By doub
 </p>
 Select Yes to confirm the installation. To confirm that the program has installed successfully, check that the tab Conjoint.ly now appears at the top of your screen.
 
-### How to update the add in
+## How to update the add in
 
 If you first installed the Conjoint.ly Excel Addin after September 2020, updating the plugin is easy! To update the plugin, simply download the version from Github and follow the same installation steps as above. The plugin will be automatically overwritten by the new version.
 
 If you first installed the Conjoint.ly Excel Addin before September 2020, you will first need to disable the preexisting plugin, following the steps below. Once completed, follow the standard installation steps.
 
-### How to disable or uninstall the add in
+## How to disable or uninstall the add in
 
 There are two options to remove the add in - disabling or uninstalling. 
 
@@ -46,7 +46,7 @@ Disabling the plugin removes the tool bar from your Excel, but allows you to eas
 
 To enitrely uninstall the add-in from your computer, nagivate to `Options` - `Excel Add-ins`, where you are presented with a list of add-ins installed on your PC, aswell as their file paths. Open file explorer and navigate to the file path for the Conjoint.ly Excel Add-in. From here you can entirely delete the file from your PC.
 
-### Tool Bar Functionality
+## Tool Bar Functionality
 
 ![img](GuideImages/Toolbar.PNG)
 
@@ -61,7 +61,7 @@ To enitrely uninstall the add-in from your computer, nagivate to `Options` - `Ex
 | ![img](GuideImages/Lock.PNG) | This function **transforms conditional formatting to to static formatting**. This allows the formatting to be copied onto different data points while not changing. To use the function, highlight the cells that you want converted then select the function. Note that this does not work for Excel's `Data Bars`|
 | ![img](GuideImages/Trace.PNG) | When used, this function will **show all precedents and dependents for the selected cells in a pop up box**, rather than showing arrows (Which occurs with the inbuilt Excel tracing)|
 
-### Elasticity Function
+## Elasticity Function
 `ELASTICITY(Quantity1, Quantity2, Price1, Price2)`
 
 Price elasticity of demand (PED) is a measurement of how quantity demanded is affected by changes in price, i.e. it shows how demand for a product increases or decreases as its price increases or decreases. 
