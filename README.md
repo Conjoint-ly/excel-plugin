@@ -66,4 +66,4 @@ To entirely uninstall the add-in from your computer, navigate to `Options` - `Ex
 
 Price elasticity of demand (PED) is a measurement of how quantity demanded is affected by changes in price, i.e. it shows how demand for a product increases or decreases as its price increases or decreases. 
 
-This function calculates the coefficient of price elasticity of demand using the mid-point formula. To learn more about elasticity: https://conjointly.com/guides/understanding-price-elasticity-of-demand
+This function calculates the [coefficient of price elasticity of demand](https://conjointly.com/guides/understanding-price-elasticity-of-demand) using the mid-point formula.
