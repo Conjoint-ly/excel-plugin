@@ -46,7 +46,7 @@ A free companion plugin for Excel that helps with charting [Conjoint.ly](https:/
 | ![img](GuideImages/Get.PNG) | These functions allow you to easily take the **background colour of a cell and apply it to another cell**. First, highlight a non-empty cell that you want to take the background colour from. Select the `Get` option. Next, highlight the non-empty cell that you want apply the colour to and select `Apply` |
 
 ## 📉 Elasticity Function
-`ELASTICITY(Quantity1, Quantity2, Price1, Price2)`
+`=ELASTICITY(Quantity1, Quantity2, Price1, Price2)`
 
 Price elasticity of demand (PED) is a measurement of how quantity demanded is affected by changes in price, i.e. it shows how demand for a product increases or decreases as its price increases or decreases. 
 
