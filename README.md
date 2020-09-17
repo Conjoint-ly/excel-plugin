@@ -28,7 +28,7 @@ A free companion plugin for Excel that helps with charting [Conjoint.ly](https:/
 
 ## How to update the add-in
 
-If you first installed the Conjoint.ly Excel Addin **after** September 2020, updating the plugin is easy! To update the plugin, simply download the version from Github and follow the same installation steps as above. This will automatically overwrite the existing plugin with the updated version.
+If you first installed the Conjoint.ly Excel Addin **after** September 2020, updating the plugin is easy! To update the plugin, simply download the version from Github and follow the same installation steps as [above](#installation-guide-windows-10). This will automatically overwrite the existing plugin with the updated version.
 
 If you first installed the Conjoint.ly Excel Addin **before** September 2020, you will first need to disable the preexisting plugin, following the steps below. Once completed, follow the [standard installation guide](#installation-guide-windows-10).
 
