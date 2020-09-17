@@ -11,25 +11,25 @@ A free companion plugin for Excel that helps with charting [Conjoint.ly](https:/
 
 ## Installation Guide (Windows 10)
 
-* To begin installation, download the file through the following link: 
+1. To begin installation, download the file through the following link: 
 
 <p align="center">
 <a href="https://github.com/Conjoint-ly/excel-plugin/raw/master/ConjointlyExcelPlugin.install.xlam"><img src="GuideImages/DownloadNow.png" class="center"/></a>
 </p>
 
-* Save the file to an appropriate location in your file system. Right-click on the file and select properties. At the bottom of the popup box is the option to unblock the file. Select unblock and then apply. 
+2. Save the file to an appropriate location in your file system. Right-click on the file and select properties. At the bottom of the popup box is the option to unblock the file. Select unblock and then apply. 
 
 <p align="center">
 <img src="GuideImages/unblock2.PNG" height=500 class="center"/>
 </p>
 
-* Close all current instances of Microsoft Office. By double-clicking on the file, Microsoft Excel will open, and will prompt you with the following message: 
+3. Close all current instances of Microsoft Office. By double-clicking on the file, Microsoft Excel will open, and will prompt you with the following message: 
 
 <p align="center">
 <img src="GuideImages/Prompt.PNG" height=250 class="center"/>
 </p>
 
-* Select yes to confirm the installation. 
+4. Select yes to confirm the installation. 
 
 ## How to update the add-in
 
