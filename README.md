@@ -56,6 +56,7 @@ To entirely uninstall the add-in from your computer, navigate to `Options` - `Ex
 | ![img](GuideImages/HideZeros.PNG) | This function will apply formatting such that **values approaching zero will be hidden**. To use this function, select a graph that you want to hide zeros on. Once the function is used, it will apply formatting to the underlying dataset to hide values approaching zero|
 | ![img](GuideImages/Lock.PNG) | This function **transforms conditional formatting to static formatting**. This allows the formatting to be copied onto different data points while not changing. To use the function, highlight the cells that you want to be converted then select the function. Note that this does not work for Excel's `Data Bars`|
 | ![img](GuideImages/Trace.PNG) | When used, this function will **show all precedents and dependents for the selected cells in a popup box**, rather than showing arrows (Which occurs with the inbuilt Excel tracing)|
+| ![img](GuideImages/Get.PNG) | These functions allow you to easily take the **background colour of a cell and apply it to another cell**. First, highlight a non-empty cell that you want to take the background colour from. Select the `Get` option. Next, highlight the non-empty cell that you want apply the colour to and select `Apply` |
 
 ## Elasticity Function
 `ELASTICITY(Quantity1, Quantity2, Price1, Price2)`
