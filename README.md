@@ -12,7 +12,9 @@ A free companion plugin for Excel that helps with charting [Conjoint.ly](https:/
 ## Installation Guide (Windows 10)
 
 * To install the plugin, first <a download href="https://github.com/Conjoint-ly/excel-plugin/raw/master/ConjointlyExcelPlugin.xlam">download the file</a>. Once downloaded, move the file to an appropriate location in your file system. 
-* Right-click on the file and select properties. At the bottom of the popup box is the option to unblock the file. Select unblock and then apply. <p align="center">
+* Right-click on the file and select properties. At the bottom of the popup box is the option to unblock the file. Select unblock and then apply. 
+
+<p align="center">
 <img src="GuideImages/unblock2.PNG" height=500 class="center"/>
 </p>
 
