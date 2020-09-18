@@ -52,6 +52,8 @@ Price elasticity of demand (PED) is a measurement of how quantity demanded is af
 
 This function calculates the [coefficient of price elasticity of demand](https://conjointly.com/guides/understanding-price-elasticity-of-demand) using the mid-point formula.
 
+💡 **Handy Tip:** If you forget the list of arguments in this function, press `Ctrl+A`.
+
 ## 📦 How to update the add-in
 
 If you first installed the Conjoint.ly Excel Addin **after** September 2020, updating the plugin is easy! To update the plugin, simply download the updated version from Github and follow the same installation steps as [above](#installation-guide-windows-10). This will automatically overwrite the existing plugin with the updated version.
