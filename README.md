@@ -3,11 +3,11 @@ A free companion plugin for Excel that helps with charting [Conjoint.ly](https:/
 
 ## 📖 Table of Contents
 
-1. [Installation guide (Windows 10)](#installation-guide-windows-10)
-2. [Toolbar functionality](#toolbar-functionality)
-3. [Elasticity function](#elasticity-function)
-4. [How to update the add-in](#how-to-update-the-add-in)
-5. [How to disable or uninstall the add-in](#how-to-disable-or-uninstall-the-add-in)
+1. [Installation guide (Windows 10)](#-installation-guide-windows-10)
+2. [Toolbar functionality](#-toolbar-functionality)
+3. [Elasticity function](#-elasticity-function)
+4. [How to update the add-in](#-how-to-update-the-add-in)
+5. [How to disable or uninstall the add-in](#-how-to-disable-or-uninstall-the-add-in)
 
 ## 💿 Installation Guide (Windows 10)
 
