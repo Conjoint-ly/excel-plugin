@@ -27,7 +27,7 @@ A free companion plugin for Excel that helps with charting [Conjoint.ly](https:/
 <img src="GuideImages/Prompt.PNG" height=250 class="center"/>
 </p>
 
-4. Select yes to confirm the installation. 
+4. Select `Yes` to confirm the installation. 
 
 ## 🧰 Toolbar Functionality
 
